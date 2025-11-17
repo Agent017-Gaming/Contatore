@@ -2,7 +2,6 @@ public class Main {
     public static void main(String[] args) {
         Counter c = new Counter();
         CounterSynchronized cs = new CounterSynchronized();
-        
 
         // Create multiple threads to increment the counter
         Thread t1 = new Thread(c::increment);
