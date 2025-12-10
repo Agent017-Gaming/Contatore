@@ -3,7 +3,7 @@ public class Counter {
 
     public void increment() {
         int i = 0;
-        while (i < 5000){
+        while (i < 100){
             count++;
             i++;
         }

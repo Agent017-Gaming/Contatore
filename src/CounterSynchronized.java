@@ -5,7 +5,7 @@ public class CounterSynchronized {
 
     public synchronized void increment() {
         int i = 0;
-        while (i < 5000){
+        while (i < 100){
             count++;
             i++;
         }

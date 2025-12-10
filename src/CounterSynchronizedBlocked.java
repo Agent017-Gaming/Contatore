@@ -3,7 +3,7 @@ public class CounterSynchronizedBlocked {
     private final Object lock = new Object();
     public void increment(){
         int i = 0;
-        while (i < 3){
+        while (i < 100){
             synchronized (lock){
                 this.count++;
             }
